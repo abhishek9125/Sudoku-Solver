@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+#container{
+    height: auto;
+    width: 540px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly ; 
+    margin: 0 auto;
+}
+
+#generate-sudoku{
+    margin:auto;
+    display:inline-block;
+    margin-left: 44%;
+}
+
+
+#solve{
+    margin:auto;
+    display:inline-block;;
+}
+
+#container div{
+    background-color: black;
+    height: 50px;
+    width: 60px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px; 
+    font-size: 30px; 
+    color: green;
+    
+}
+
+#container div:hover{
+    background-color: lightskyblue;
+}
+
+.lsb{
+    border-left: #dc3545 2px solid;
+}
+
+.bsb{
+    border-bottom: #dc3545 2px solid;
+}
+
+.rsb{
+    border-right: #dc3545 2px solid;
+}
+
+.tsb{
+    border-top: #dc3545 2px solid;
+}
+
+
+.ldb{
+    border-left: #dc3545 0.6px dashed;
+}
+
+.bdb{
+    border-bottom: #dc3545 0.6px dashed;
+}
+
+.rdb{
+    border-right: #dc3545 0.6px dashed;
+}
+
+.tdb{
+    border-top: #dc3545 0.6px dashed;
+}
